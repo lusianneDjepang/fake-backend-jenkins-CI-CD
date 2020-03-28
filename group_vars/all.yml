@@ -1,5 +1,5 @@
 ---
-fake_backend_source_repo: "git@github.com:samiamr/fake-backend.git"
+fake_backend_source_repo: "git@github.com:lusianneDjepang/fake-backend.git"
 fake_backend_source_branch: "master"
 fake_backend_image_tag: "JenkinsCICDnew"
 
@@ -9,9 +9,6 @@ volume_database: "/srv/db-data"
 ip_addr_preprod: "18.233.164.123"
 ip_addr_prod: "3.82.199.10"
 port_app: "8181"
-
-login_app: "{{ vault_login_app  }}"
-password_app: "{{ vault_password_app }}"
 
 #secret data vaulted
 github_private_key: "{{ vault_github_private_key }}"
