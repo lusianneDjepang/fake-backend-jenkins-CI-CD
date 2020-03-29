@@ -6,8 +6,8 @@ fake_backend_image_tag: "JenkinsCICDnew"
 home: "/home/centos"
 volume_database: "/srv/db-data"
 
-ip_addr_preprod: "18.233.164.123"
-ip_addr_prod: "3.82.199.10"
+ip_addr_preprod: "3.86.241.153"
+ip_addr_prod: "184.73.144.251"
 port_app: "8181"
 
 #secret data vaulted
