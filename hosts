@@ -1,8 +1,8 @@
 [build]
-54.165.119.79 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ec2-54-165-119-79.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 [preprod]
-3.86.241.153 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ec2-3-86-241-153.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 [prod]
-184.73.144.251 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ec2-184-73-144-251.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
